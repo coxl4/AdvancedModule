@@ -28,6 +28,7 @@ def root():
     dummy_times = [datetime.datetime(2021, 1, 1, 10, 0, 0),
                    datetime.datetime(2021, 1, 2, 10, 30, 0),
                    datetime.datetime(2021, 1, 3, 11, 0, 0),
+                   datetime.datetime(2021, 1, 4, 12, 0, 0),
                    ]
 
     return render_template('index.html', times=dummy_times)
